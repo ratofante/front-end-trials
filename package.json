@@ -1,0 +1,24 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "Aprendemos Bootstrap, Sass y generalidades del FrontEnd",
+  "main": "index.js",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "autoprefixer": "^10.4.0",
+    "bootstrap": "^5.1.3",
+    "postcss-cli": "^9.0.2",
+    "sass": "^1.43.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "compile:sass": "sass --watch scss:resources/css"
+  },
+  "keywords": [
+    "Bootstrap",
+    "Sass",
+    "Frontend"
+  ],
+  "author": "Rodrigo",
+  "license": "ISC"
+}
