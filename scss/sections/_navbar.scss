@@ -1,0 +1,10 @@
+@use '../custom' as *;
+.navbar-brand img {
+    width: 80px;
+}
+.menu {
+    background:linear-gradient(to right, rgba($primary, 0.95), rgba($secondary, 0.95));
+    li {
+        padding: 0 .7rem;
+    }
+}
