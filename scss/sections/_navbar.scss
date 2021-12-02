@@ -1,10 +1,23 @@
 @use '../custom' as *;
+@use '../components/mixins' as *;
 .navbar-brand img {
     width: 80px;
 }
 .menu {
-    background:linear-gradient(to right, rgba($primary, 0.95), rgba($secondary, 0.95));
+    @include gradient;
     li {
-        padding: 0 .7rem;
+        padding: 0 0.7rem;
+        &:last-child {
+            padding-right:1rem;
+        }
+        &:hover {
+            color: $black;
+        }
+        a {
+            color: $white !important;
+            text-transform: capitalize;
+            font-weight: 600;
+        }
     }
+    
 }

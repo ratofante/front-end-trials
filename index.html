@@ -6,19 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learning bootstrap</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
 </head>
 <body>
 <!-- NAV BAR SECTION -->
-<nav class="navbar navbar-expand-lg navbar-light menu">
-    <div class="container">
+<nav class="navbar navbar-expand-md navbar-dark menu shadow fixed-top">
+    <div class="container-lg">
         <a class="navbar-brand" href="#">
             <img src="images/logo.png" alt="logo empresa">
         </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav">
+      <div class="collapse navbar-collapse align-items-center justify-content-md-around justify-content-lg-end align-items-center" id="navbarNav">
+        <ul class="navbar-nav align-items-md-center">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Inicio</a>
           </li>
@@ -32,11 +33,39 @@
               </li>
           </li>
         </ul>
-        <button type="button" class="rounded-pill">+54 9 11 1234 8765</button>
+        <button type="button" class="rounded-pill btn-rounded">
+          +54 9 11 1234 8765
+          <span>
+            <i class="fas fa-phone-alt"> </i>
+          </span>
+        </button>
       </div>
     </div>
-  </nav>
+</nav>
+
+<!-- INTRO SECTION -->
     
+<section id="home" class="intro-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 intros">
+        <h1 class="display-2">
+          <span class="display-2--intro">Somos Amoblamientos Alfa</span>
+          <span class="display-2--description">
+            Nos especializamos en brindar soluciones personalizadas para tu hogar
+          </span>
+        </h1>
+        <button type="button" class="rounded-pill btn-rounded">
+          Quiero saber más
+          <span>
+            <i class="fas fa-arrow-right"> </i>
+          </span>
+        </button>
+      </div>
+      <div class="col-md-6 intros"></div>
+    </div>
+  </div>
+</section>
 
 
 <script src="./assets/js/bootstrap.bundle.js"></script>
