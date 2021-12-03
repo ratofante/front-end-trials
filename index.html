@@ -7,6 +7,9 @@
     <title>Learning bootstrap</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:wght@400;700&family=Poppins:ital,wght@0,400;0,700;0,900;1,500&display=swap" rel="stylesheet">
 </head>
 <body>
 <!-- NAV BAR SECTION -->
@@ -47,11 +50,11 @@
     
 <section id="home" class="intro-section">
   <div class="container">
-    <div class="row">
+    <div class="row align-items-center overflow-hidden">
       <div class="col-md-6 intros">
         <h1 class="display-2">
           <span class="display-2--intro">Somos Amoblamientos Alfa</span>
-          <span class="display-2--description">
+          <span class="display-2--description lh-base">
             Nos especializamos en brindar soluciones personalizadas para tu hogar
           </span>
         </h1>
@@ -62,7 +65,10 @@
           </span>
         </button>
       </div>
-      <div class="col-md-6 intros"></div>
+      <!-- segunda columna -->
+      <div class="col-md-6 intros position-relative">
+        <img id="intro-img"class="img-fluid intro-img" src="images/arts/intro-img.png" alt="Interior de Hogar">
+      </div>
     </div>
   </div>
 </section>

@@ -1,15 +1,27 @@
 @use '../custom' as *;
-
+/*
+font-family: 'Lobster Two', cursive;
+font-family: 'Poppins', sans-serif;
+*/
 .display-2 {
     margin-bottom: 1rem;
     text-transform: capitalize;
-    
+    position:relative;
+    z-index: 2;
     &--intro {
         display:inline-block;
         font-weight: 700;
+        color: $white;
+        font-family:'Lobster Two', cursive;
+        font-size: 4.5rem;
     }
     &--description {
         font-size: 1rem;
         display: block;
+        font-weight: 400;
+        margin-top: 1.2rem;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.5rem;
+        text-transform: none;
     }
 }
